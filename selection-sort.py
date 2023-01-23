@@ -1,4 +1,4 @@
-# Selection Sort using Python
+# Selection Sort in Python
 
 def selection_sort(array):
     for i in range(9):
@@ -7,9 +7,9 @@ def selection_sort(array):
             if array[j] < array [min_position]:
                 min_position = j
 
-        temporary = array[i]
+        temp_var = array[i]
         array[i] = array[min_position]
-        array[min_position] = temporary
+        array[min_position] = temp_var
 
         print(array)
 
