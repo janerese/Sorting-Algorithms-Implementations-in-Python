@@ -33,9 +33,6 @@ def merge_sort(array):
             j += 1
             k += 1
 
-        # print(array)
-        # Code above can be used to observe the process of Merge Sort Algorithm
-
 array = [77, 29, 18, 6, 37, 86, 39, 50, 55, 97]
 merge_sort(array)
 

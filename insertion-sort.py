@@ -7,10 +7,7 @@ def insertion_sort(array):
             array[j - 1], array[j] = array[j], array [j - 1]
             j -= 1
         
-        # print(array)
-        # Code above can be used to observe the process of Insertion Sort Algorithm
-
-array = [2, 6, 5, 1, 3, 4]
+array = [77, 29, 18, 6, 37, 86, 39, 50, 55, 97]
 insertion_sort(array)
 
 print(array)

@@ -11,9 +11,6 @@ def selection_sort(array):
         array[i] = array[min_position]
         array[min_position] = temp_var
 
-        # print(array)
-        # Code above can be used to observe the process of Merge Sort Algorithm
-
 array = [77, 29, 18, 6, 37, 86, 39, 50, 55, 97]
 selection_sort(array)
 
